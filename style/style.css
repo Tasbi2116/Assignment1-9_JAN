@@ -273,22 +273,98 @@ header {
     line-height: 32px;
     /* 160% */
 }
-.description-div{
+
+.description-div {
     max-width: 276px;
     height: 96px;
     margin-top: 0px;
     margin-bottom: 43px;
 }
-.coming-soon-container{
+
+.coming-soon-container {
     display: flex;
     /* display: inline-flex; */
     justify-content: space-between;
     margin-top: 120px;
 }
 
-.coming-soon-txt{
+.coming-soon-txt {
     margin-top: 112px;
 }
-.txt-container-2024{
+
+.txt-container-2024 {
     margin-top: 108px;
+}
+
+/* Holidays sale sectiion style */
+.holiday{
+    max-width: 1320px;
+    margin: auto;
+}
+.function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sale50 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holidays1 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-disc-div {
+    max-width: 1068px;
+    max-height: 96px;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.holiday-discription {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+/* .gift-rectan2{
+    display: -webkit-flex;
+} */
+.rectan1{
+    margin-bottom: 0px;
+    float: right;
+}
+.rectan2{
+    margin-top: 0px;
+}
+.group75{
+    position: absolute;
+    top: 3900.08px;
+    left: 20.77px;
+    right: 1000.46px;
+}
+.group44{
+    position: absolute;
+    top: 3972.97px;
+    right: 477.17px;
+    left: 850.07px;
 }

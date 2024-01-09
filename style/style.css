@@ -199,6 +199,7 @@ header {
 .coming-soon {
     max-width: 1320px;
     margin: auto;
+    margin-bottom: 120px;
 }
 
 .offer-txt {
@@ -308,6 +309,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 0px;
 }
 
 .sale50 {
@@ -317,6 +319,8 @@ header {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 0px;
 }
 
 .holidays1 {
@@ -344,6 +348,8 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
+    margin-top: 28px;
+    margin-bottom: 80px;
     /* 160% */
 }
 /* .gift-rectan2{
@@ -358,13 +364,16 @@ header {
 }
 .group75{
     position: absolute;
-    top: 3900.08px;
+    top: 4000.08px;
     left: 20.77px;
     right: 1000.46px;
 }
 .group44{
     position: absolute;
-    top: 3972.97px;
+    top: 4072.97px;
     right: 477.17px;
     left: 850.07px;
+}
+.holiday-div-all{
+    margin-top: 120px;
 }

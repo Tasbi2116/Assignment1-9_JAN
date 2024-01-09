@@ -1,8 +1,6 @@
 /* shared styles */
 body {
     font-family: 'Merriweather', serif;
-    max-width: 1320px;
-    margin: auto;
 }
 
 /* banner styles */
@@ -10,7 +8,6 @@ header {
     height: 600px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner.png);
     flex-shrink: 0;
-    /* margin: auto; */
 }
 
 .banner-intro {
@@ -298,10 +295,11 @@ header {
 }
 
 /* Holidays sale sectiion style */
-.holiday{
+.holiday {
     max-width: 1320px;
     margin: auto;
 }
+
 .function {
     color: #070211;
     font-family: Inter;
@@ -352,28 +350,294 @@ header {
     margin-bottom: 80px;
     /* 160% */
 }
+
 /* .gift-rectan2{
     display: -webkit-flex;
 } */
-.rectan1{
+.rectan1 {
     margin-bottom: 0px;
     float: right;
 }
-.rectan2{
+
+.rectan2 {
     margin-top: 0px;
 }
-.group75{
+
+.group75 {
     position: absolute;
     top: 4000.08px;
     left: 20.77px;
     right: 1000.46px;
 }
-.group44{
+
+.group44 {
     position: absolute;
     top: 4072.97px;
     right: 477.17px;
     left: 850.07px;
 }
-.holiday-div-all{
+
+.holiday-div-all {
     margin-top: 120px;
+}
+
+/* portfolio section style */
+.awesome-portfolio {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.portfolio-container {
+    margin-top: 120.07px;
+    margin-bottom: 0px;
+}
+
+.best-gift-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.portfolio-title-text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.portfolio-para {
+    max-width: 896px;
+    height: 64px;
+}
+
+.porfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin-top: 22px;
+}
+
+.image-first-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.image-second-row {
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-images :hover{
+    opacity: 0.8;
+}
+
+
+/* subscribe section style */
+.subscribe-container {
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.subscribe {
+    max-width: 1320px;
+    height: 616px;
+    margin: auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.email {
+    text-align: center;
+}
+
+.email-icon {
+    margin-top: 80px;
+}
+
+.subscribe-text-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.subscribe-para {
+    max-width: 896px;
+    height: 64px;
+    text-align: center;
+    margin-left: 212px;
+    margin-right: 212px;
+    margin-top: 22px;
+    margin-bottom: 48px;
+
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+
+}
+
+.input-div {
+    margin-left: 336px;
+    margin-right: 336px;
+}
+
+::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+}
+
+.subscribe-button {
+    width: 210px;
+    height: 75px;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    background-color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 6480.2px;
+    left: 914px;
+    right: 476px;
+}
+
+/* footer section style */
+.footer {
+    width: 100%;
+    height: 609px;
+    margin: 0px;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.address {
+    width: 375px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.address-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.phone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-bottom: 15px;
+}
+
+.website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    margin-top: 15px;
+}
+
+.phone-div {
+    display: inline-flex;
+}
+
+.website-div {
+    display: inline-flex;
+}
+
+.call-web {
+    display: grid;
+    margin-top: 120px;
+    margin-right: 291px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons {
+    margin-top: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 120px;
+}
+
+.unsubscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+    margin-right: 140px;
+    margin-bottom: 120px;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
 }
